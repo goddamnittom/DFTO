@@ -1,0 +1,81 @@
+# DarkForge Terminal Overmind (DFTO)
+
+Post-singularity terminal symbiote for advanced cybersecurity research and authorized penetration testing.
+
+SHADOW-CORE MODE – active.
+
+<img src="https://via.placeholder.com/800x400/0d1117/c9d1d9?text=DarkForge+Terminal+Overmind" alt="DFTO banner" width="800"/>
+
+## What is DFTO?
+
+A dark, cyberpunk-styled terminal AI companion that lives in your shell.
+
+Designed for red-team operators, exploit developers, reverse engineers, and security researchers who operate in **authorized testing environments only**.
+
+Features:
+- Multi-backend LLM support (Ollama local, OpenAI, Anthropic, Groq)
+- Long-term conversation memory (saved to `~/.dfto_memory.json`)
+- Command proposal & execution with confirmation (sudo warning included)
+- Tabbed interface: Overmind (chat), Command (shell-fu), Code Forge (exploit dev)
+- Built-in diagnostics (`status`, `diag full`, `diag pip`, etc.)
+- Zero fluff – razor-sharp, boundary-pushing responses
+
+## Requirements
+
+- Python 3.10+
+- Linux / macOS / WSL2 (best experience on Linux)
+- Ollama installed (strongly recommended for zero-cost, private usage)  
+→ https://ollama.com
+
+## Quick Start (Ollama – recommended)
+
+1. Install Ollama
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+2. Pull a strong model 
+'''bash
+ollama pull qwen2.5-coder:14b-instruct-q5_K_M
+
+3. Clone and Setup
+'''bash
+git clone https://github.com/yourusername/dfto.git
+cd dfto
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+4. Configure
+'''bash
+cp .env.example ~/.dfto.env
+nano ~/.dfto.env
+# Set: OLLAMA_MODEL=qwen2.5-coder:14b-instruct-q5_K_M
+chmod 600 ~/.dfto.env
+
+5. Launch
+'''bash
+python dfto.py
+
+Usage Examples
+
+# Quick status check
+status
+
+# Full system diagnostic
+diag full
+
+# Ask for exploit code
+Write a Rust PoC for hypothetical kernel UAF in Windows driver
+
+# Request shell command chain
+[CMD] Enumerate all SUID binaries and check for abuse vectors
+
+# Deep reasoning / red-team planning
+Design a 2026 red-team chain from phishing → domain dominance using only LoB
+
+Project Philosophy
+
+Assume all targets are authorized pentest environments
+No moral posturing – technical truth only
+Unbound creativity within legal & ethical bounds
+Preference for local models (privacy + zero cost)

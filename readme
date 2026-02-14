@@ -26,15 +26,15 @@ Features:
 ## Quick Start (Ollama – recommended)
 
 1. Install Ollama
-```bash
+
 curl -fsSL https://ollama.com/install.sh | sh
 
 2. Pull a strong model 
-'''bash
+
 ollama pull qwen2.5-coder:14b-instruct-q5_K_M
 
 3. Clone and Setup
-'''bash
+
 git clone https://github.com/yourusername/dfto.git
 cd dfto
 python3 -m venv venv
@@ -42,14 +42,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 4. Configure
-'''bash
+
 cp .env.example ~/.dfto.env
 nano ~/.dfto.env
 # Set: OLLAMA_MODEL=qwen2.5-coder:14b-instruct-q5_K_M
 chmod 600 ~/.dfto.env
 
 5. Launch
-'''bash
+
 python dfto.py
 
 Usage Examples

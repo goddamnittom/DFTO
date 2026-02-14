@@ -1,0 +1,7 @@
+textual>=0.85.0
+rich>=13.8.0
+python-dotenv>=1.0.1
+ollama>=0.3.0          # only needed if using Ollama backend
+openai>=1.58.0         # optional – only if using OpenAI
+anthropic>=0.42.0      # optional
+groq>=0.3.0            # optional

@@ -1,0 +1,27 @@
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Install Ollama (for local LLM):
+curl -fsSL https://ollama.ai/install.sh | sh
+ollama pull llama3.1:8b
+
+3. Run the application:
+python3 main.py
+
+
+ZeroClaw Autonomous Agent: Self-reasoning AI with memory management
+✅ Raspberry Pi 5 Optimized: Lightweight architecture suitable for Pi 5
+✅ Composio Integration: Tool framework for extended capabilities
+✅ Discord Control: Remote interaction via Discord bot
+✅ Custom Commands: /think, /status, /memory, /execute, /tools, /reset
+✅ LLM Reasoning: Local LLM for decision making and task execution
+✅ Tool Execution: Calculator and file operations via Composio
+✅ Memory Management: Conversation history with size limits
+
+Usage Examples:
+/think what should I do today? - Ask for advice
+/execute write a hello world program in Python - Execute programming tasks
+/status - Check agent status
+/memory 3 - View last 3 conversations
+Direct messages to the bot for personal interactions
+The agent runs autonomously in the background while being controllable via Discord commands!

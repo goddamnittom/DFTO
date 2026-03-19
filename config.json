@@ -1,0 +1,16 @@
+{
+  "discordtoken": "MTQ3NjMyMjg2NzA5OTQ2Nzk1Nw.GU-Cs5.iwtFh7RUQzTFEFyca73zEuzpYW55r8vvUb5GSE",
+    "guild_id": 1476334597196218411,
+    "owner_id": 1424479179898097806
+  },
+  "model": {
+    "name": "llama3.1:8b",
+    "temperature": 0.7,
+    "max_tokens": 1000
+  },
+  "agent": {
+    "name": "ZeroClaw",
+    "personality": "Autonomous AI agent focused on completing tasks efficiently while maintaining safety protocols.",
+    "max_memory": 100
+  }
+}

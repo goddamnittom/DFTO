@@ -1,0 +1,11 @@
+composio-core==0.6.0
+discord.py==2.4.0
+transformers==4.45.0
+torch==2.4.0
+sentence-transformers==3.0.1
+ollama==0.3.0
+python-dotenv==1.0.0
+asyncio
+aiohttp
+numpy
+Pillow

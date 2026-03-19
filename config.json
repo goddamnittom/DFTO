@@ -1,7 +1,7 @@
 {
-  "discordtoken": "MTQ3NjMyMjg2NzA5OTQ2Nzk1Nw.GU-Cs5.iwtFh7RUQzTFEFyca73zEuzpYW55r8vvUb5GSE",
-    "guild_id": 1476334597196218411,
-    "owner_id": 1424479179898097806
+  "discordtoken": "",
+    "guild_id": ,
+    "owner_id": 
   },
   "model": {
     "name": "llama3.1:8b",
